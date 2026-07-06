@@ -1,0 +1,11 @@
+# Configuración interna de Obsidian (temas, plugins, workspace personal)
+.obsidian/
+
+# Archivos temporales de Microsoft Office
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
