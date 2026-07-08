@@ -1,4 +1,4 @@
-# 🔐 Cybersecurity Notes — Ángel
+# 🔐 Cybersecurity Notes — Ángel Martín
 
 Este repositorio recoge el aprendizaje que estoy llevando en el mundo de la ciberseguridad: desde los fundamentos de Linux hasta la resolución de máquinas de HackTheBox, pasando por la configuración de mi propio entorno de trabajo.
 
