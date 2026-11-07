@@ -1,5 +1,5 @@
 ![[Pasted image 20260620184627.png]]
-Cuando el escaneo normal no encuentra nada, no significa que no haya nada abierto — simplemente puede estar fuera del top 1000. Ahí es cuando usas:
+Cuando el escaneo normal no encuentra nada, no significa que no haya nada abierto, simplemente puede estar fuera del top 1000. Ahí es cuando usas:
 
 ```
 nmap -p- <IP>
@@ -19,13 +19,11 @@ Task 9 Con DBSIZE
 ![[Pasted image 20260620185826.png]]
 ![[Pasted image 20260620185841.png]]
 
-
-
-### 📝 Resumen — Máquina "Redeemer" (HTB Starting Point)
+### Resumen, Máquina "Redeemer" (HTB Starting Point)
 
 #### 1. Reconocimiento con Nmap
 
-El escaneo por defecto no encontró nada porque **Redis no está en el top 1000 de puertos** que Nmap revisa por defecto. Tuviste que especificar el puerto manualmente:
+El escaneo por defecto no encontró nada porque Redis no está en el top 1000 de puertos que Nmap revisa por defecto. Tuviste que especificar el puerto manualmente:
 
 ```
 nmap -sV -p 6379 <IP>
@@ -44,11 +42,11 @@ redis-cli -h <IP>
 ```
 
 - `redis-cli` → el cliente de línea de comandos para interactuar con Redis
-- `-h` → especifica el host (la IP) al que conectarte
+- `-h` → específica el host (la IP) al que conectarte
 
 #### 3. El fallo de seguridad: sin autenticación
 
-Te conectaste directamente, **sin usuario ni contraseña**. Mismo patrón que en Meow, Fawn y Dancing — un servicio expuesto sin ningún tipo de protección.
+Te conectaste directamente, sin usuario ni contraseña. Mismo patrón que en Meow, Fawn y Dancing, un servicio expuesto sin ningún tipo de protección.
 
 #### 4. Explorar el servidor
 

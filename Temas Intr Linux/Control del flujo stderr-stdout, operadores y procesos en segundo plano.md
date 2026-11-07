@@ -4,7 +4,7 @@ https://hack4u.io/wp-content/uploads/2022/05/bash-redirections-cheat-sheet.pdf
 && el segundo comando se ejecuta si y solo si el primero se ejecuta
 || (OR)
 
-$? ver el codigo de estado 0 EXISTOSO =! 0 ERRONEO
+$? ver el código de estado 0 EXITOSO =! 0 ERRONEO
 
 
 STDOUT & STDERR
@@ -31,7 +31,7 @@ Ejecuta un comando en modo silencioso absoluto, descartando tanto la informació
 
 Es recomendable cuando ejecutas un programa corriendo y no quieres que te aparezca los output solamente que se ejecute
 
-PID numero indentificativo que representa y diferencia a los procesos
+PID número indentificativo que representa y diferencia a los procesos
  
 
 

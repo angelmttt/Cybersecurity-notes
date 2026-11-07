@@ -15,7 +15,7 @@ Tenemos que cambiar el ls colors en desktop Y cambiar el valor de la variable de
 
 
 
-Metemos tambien el export en el .zshrc y buscas el echo Path del usuario nomral y tambien lo pegas
+Metemos también el export en el .zshrc y buscas el echo Path del usuario normal y también lo pegas
 
 ![[Pasted image 20260304201412.png]]
 

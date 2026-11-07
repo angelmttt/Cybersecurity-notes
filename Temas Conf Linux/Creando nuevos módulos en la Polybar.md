@@ -1,10 +1,10 @@
 
 Seguimos como root en /home/angelmt/.config/polybar
 
-Creacion de la barra Target
+Creación de la barra Target
 ![[Pasted image 20260306183352.png]]
 
-Nos metemos ahora en current ini filtramos por secondary copiamos y pegamos el codigo hasta que quede asi 
+Nos metemos ahora en current ini filtramos por secondary copiamos y pegamos el código hasta que quede así 
 ![[Pasted image 20260307103414.png]]
 
 Bajamos abajo del todo y lo mismo copiamos una y ponemos los valores de victim
@@ -24,11 +24,11 @@ https://pastebin.com/z0Hy7PUB (settarget)
 https://pastebin.com/JnHSrq3Y (cleartarget)
 ![[Pasted image 20260307110259.png]]
 
-Y por ultimo configuramos los colores que se encuentran en el archivo workspace.ini en polybar
+Y por último configuramos los colores que se encuentran en el archivo workspace.ini en polybar
 Filtramos por occupied y cambiamos a estos colores
 ![[Pasted image 20260307111813.png]]
 
-Por ultimo instalamos Fzf
+Por último instalamos Fzf
 Lo hacemos tanto en el no privilegiado como en el privilegiado
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install

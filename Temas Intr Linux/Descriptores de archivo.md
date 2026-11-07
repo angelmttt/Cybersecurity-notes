@@ -3,7 +3,7 @@ https://hack4u.io/wp-content/uploads/2022/05/bash-redirections-cheat-sheet.pdf
 ```
 exec 3<> file
 ```
-Crea un descriptor de archivo con el numero 3 se guarda en formato append (lo mete debajo)
+Crea un descriptor de archivo con el número 3 se guarda en formato append (lo mete debajo)
 	<+>//<-> 
 		-  solo lectura
 		+  escribir 

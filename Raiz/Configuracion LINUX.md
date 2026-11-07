@@ -1,5 +1,4 @@
 1. [[Instalación VMWARE]]
-2. [[Instalacion Parrot + Config]]
 3. [[Añadir tanto bswmp + sxhkd]]
 4. [[Instalacion de la Polybar, Picom y Rofi]]
 5. [[Configuracion de Font Kitty e instalación de Feh]]

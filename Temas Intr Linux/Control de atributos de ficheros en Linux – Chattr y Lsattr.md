@@ -9,17 +9,17 @@ chattr sirve para asignar una flag especial
 ```
 chattr +i +v prueba
 ```
-+i de inmutable qasi no se puede modificar renombrear o borrar (con -i lo quitas)
++i de inmutable casi no se puede modificar renombrear o borrar (con -i lo quitas)
 
 +v verbose ---> forma al ejecutar un comando de forma descriptiva que esta pasando por detras
 
 +A conseguimos que cuando se acceda al fichero no se modifique el registro atime. De este modo no quedarán la fecha del último acceso al fichero
 
-+c cuando se leaw el ifchero se servira descomprimido
++c cuando se leaw el fichero se servira descomprimido
 
 +u cuando el fichero dse borre, sus datos permanezcan guardados y permitan al usuario su recuperación
 
-+e implica que cuando un archivo sea borrado, automaticamente los bloques utilizados por el mismo sean sobreesceito con ceros
++e implica que cuando un archivo sea borrado, automáticamente los bloques utilizados por el mismo sean sobreesceito con ceros
 
 +S fichero modificado, los cambios se aplican a disco de forma sincrona y directa. Es lo mismo que tener la flag sync en el punto de montaje de filesystem
 

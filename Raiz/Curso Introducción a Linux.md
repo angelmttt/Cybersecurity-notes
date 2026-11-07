@@ -21,6 +21,5 @@
 21. [[Lectura de archivos especiales]]
 22. [[Directorios y archivos ocultos]]
 23. [[Detección del tipo y formato de archivo]]
-24. [[Búsquedas precisas de archivos]]
 25. [[Fallos Examen Linux]]
 26. 

@@ -1,4 +1,4 @@
 https://sw.kovidgoyal.net/kitty/overview/
 
-Ir a ver la configuracion LINUX para ver como la tenemos instalada
+Ir a ver la configuración LINUX para ver como la tenemos instalada
 [[Configuracion LINUX]]

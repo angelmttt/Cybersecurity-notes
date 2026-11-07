@@ -5,7 +5,7 @@ https://www.hostinger.com/es/tutoriales/cambiar-permisos-y-propietarios-linux-li
 
 
 touch --> creación de un archivo vacío
-nano ---> creacion de un archivo y se puede escribir al momento
+nano ---> creación de un archivo y se puede escribir al momento
 
 ```
 echo "Hola Mundo" > file.txt

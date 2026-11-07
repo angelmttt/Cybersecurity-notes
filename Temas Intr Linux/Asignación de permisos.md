@@ -1,7 +1,7 @@
 https://www.ionos.es/digitalguide/servidores/know-how/asignacion-de-permisos-de-acceso-con-chmod/
 https://atareao.es/tutorial/terminal/propietarios-y-permisos/
 
-Gestion de usuarios,grupos y permisos en linux
+Gestión de usuarios,grupos y permisos en linux
 https://computernewage.com/2016/05/22/gestionar-usuarios-y-permisos-en-linux/
 
  Gestión de usuarios y grupos en Linux: 
@@ -10,9 +10,9 @@ https://computernewage.com/2016/05/22/gestionar-usuarios-y-permisos-en-linux/
 
 mkdir ---> creas directorio
 rm -r borras tanto el directorio existente como los que hay por detras
-Ademas si pones -rf no te pregunta si de verdad lo quieres borrar o no
+Además si pones -rf no te pregunta si de verdad lo quieres borrar o no
 
-cmod --> cambias los privilegios
+chmod --> cambias los privilegios
 
 chmod -(o,g,x)
 
@@ -36,9 +36,9 @@ Asignas el nuevo grupo de prueba a angelmt
 ```
 chmod u-x,g-rx,o+w,o-x prueba
 ```
-Asi modificas todos
+Así modificas todos
 
-### Creacion de usuarios
+### Creación de usuarios
 
 useeradd --->  creas un nuevo usuario
 -s indicas el tipo de shell
@@ -60,7 +60,7 @@ chown pepe:pepe pepe
 Asignas tanto que el grupo y el propietario sea pepe en vez de root que es como viene predefinido
 
 
-groupadd ----> creacion de nuevo grupo
+groupadd ----> creación de nuevo grupo
 
 ```
 usermod -a -G Alumnos pepe

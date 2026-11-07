@@ -1,4 +1,4 @@
-Tenemos que crear un directorio de configuracion de Picom
+Tenemos que crear un directorio de configuración de Picom
 
 ![[Pasted image 20260304002653.png]]
 
@@ -7,7 +7,7 @@ Tenemos que crear un directorio de configuracion de Picom
 En bspwm ponemos
 ![[Pasted image 20260304003200.png]]
 
-### Definicion 
+### Definición 
 **Picom** es un compositor para sistemas de ventanas X, utilizado comúnmente en entornos de escritorio Linux. Es un derivado de Compton, que a su vez se basó en xcompmgr-dana, y es ampliamente usado en configuraciones con gestores de ventanas que no incluyen su propio sistema de composición, especialmente en entornos minimalistas como i3, bspwm, y otros.
 
 Picom se encarga de añadir efectos visuales que no solo mejoran la estética del escritorio, sino que también pueden ayudar a hacer la interfaz más amigable y menos cansada para la vista.

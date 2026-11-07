@@ -2,14 +2,14 @@
 Instalamos estos tres recursos en picom
 ![[Pasted image 20260304121036.png|697]]
 ![[Pasted image 20260304121452.png]]
-Nos metemos en github buscamos abajo del todo el codigo que pone manual y lo copiamos y pegamos 
+Nos metemos en github buscamos abajo del todo el código que pone manual y lo copiamos y pegamos 
 https://github.com/romkatv/powerlevel10k
 ![[Pasted image 20260304121745.png]]
 
 dentro de la ruta /home/angelmt/.zshrc tenemos que cambia la ruta por la nuestro en vez de la del usuario root
 ![[Pasted image 20260304121957.png]]
 
-Vamos con la instalacion de zsh 
+Vamos con la instalación de zsh 
 
 [[Insalacion zsh]]
 
@@ -68,7 +68,7 @@ Copiamos y lo pegamos en zshrc para el autocompletado
 https://pastebin.com/H87J3nMj
 
 
-### Definicion 
+### Definición 
 
 **ZSH (Z Shell)**
 

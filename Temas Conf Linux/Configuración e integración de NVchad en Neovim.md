@@ -9,7 +9,7 @@ git clone https://github.com/NvChad/starter ~/.config/nvim
 ```
 ![[Pasted image 20260307113615.png]]
 
-Nos metemos en neovim y descargamos el ultimo release el archivo siguiente y lo guardamos en descargas
+Nos metemos en neovim y descargamos el último release el archivo siguiente y lo guardamos en descargas
 ![[Pasted image 20260307114037.png]]
 https://github.com/neovim/neovim/releases/tag/v0.11.6
 
@@ -20,7 +20,7 @@ Creamos la carpetas desomprimir y todo
 Dentro de /home/angelmt/.zshrc añadimos donde export PATH la nueva ruta 
 ![[Pasted image 20260307114557.png]]
 
-Ahora dentro de /opt ejecutamos nvim y una vez instalado para salir escribrimos :q!
+Ahora dentro de /opt ejecutamos nvim y una vez instalado para salir escribimos :q!
 ![[Pasted image 20260307114933.png]]
 
 Accedemso a nano ~/.config/nvim/init.lua y añadimos esta linea
@@ -28,7 +28,7 @@ https://pastebin.com/Lbk9vQLZ
 
 ![[Pasted image 20260307115318.png]]
 
-Instlamos la siguiente utilidad y luego escribimos (si nos da permiso denegado simplemente ponemos umount y lo que estaba dando denegado)
+Instalamos la siguiente utilidad y luego escribimos (si nos da permiso denegado simplemente ponemos umount y lo que estaba dando denegado)
 ```
 sudo updatedb
 ```
@@ -47,7 +47,7 @@ esc + space + t + h (Para cambiar el color del fondo)
 
 ![[Pasted image 20260307120838.png]]
 
-Tambien ctrl + n
+También ctrl + n
 ![[Pasted image 20260307121005.png]]
 
 [[Comandos Terminal]]
@@ -73,7 +73,7 @@ Entonces ahora cerramos y cada vez que le demos a windows + d tendra que aparece
 ![[Pasted image 20260307123956.png]]
 
 ### i3loock-fancy
-Primero instlaamos los paquetes en la terminal
+Primero instalamos los paquetes en la terminal
 ![[Pasted image 20260307124202.png]]
 
 Vamos a la carpeta opt y clonamos este repositorio
@@ -111,7 +111,7 @@ AHORA LO MISMO CON ROOT
 
 CAMBIOS EN FIREFOX
 
-Nos metemos en firefox asi no se queda nada guardado 
+Nos metemos en firefox así no se queda nada guardado 
 ![[Pasted image 20260308121916.png]]
 
 Ahora para que no haya problemas para conectar a Mantis nos metemos a about:config
@@ -128,7 +128,7 @@ Dentro de foxyproxy creamos uno nuevo
 Iniciamos burpsuite
 ![[Pasted image 20260308122951.png]]
 
-Lo unico es que ahora si buscamos no nos va a dejar por lo que tenemos que buscar http://burp/ y descargamos el CA
+Lo único es que ahora si buscamos no nos va a dejar por lo que tenemos que buscar http://burp/ y descargamos el CA
 ![[Pasted image 20260308123738.png]]
 
 Ahora nos vamos a settings
@@ -150,7 +150,7 @@ Como usarlo en la terminal escribimos
 
 Y YA ESTARIA TODO EL ENTORNO CONFIGURADO
 
-### Definicion
+### Definición
 **NVChad**
 
 NVChad es un framework de configuración para Neovim que ofrece una experiencia de usuario mejorada y una suite de características prediseñadas. Es conocido por su interfaz de usuario estéticamente agradable y por su enfoque en la simplicidad y la eficiencia. NVChad viene preconfigurado con una serie de plugins cuidadosamente seleccionados y configuraciones optimizadas que abordan tanto la funcionalidad como la visualización. Esto incluye soporte para temas de color, gestión de buffers mejorada, autocompletado inteligente, y mucho más, todo ello manteniendo un rendimiento rápido. NVChad está diseñado para ser fácil de instalar y configurar, ofreciendo a los usuarios una plataforma robusta sobre la cual pueden construir o adaptar según sus necesidades específicas.

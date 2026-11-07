@@ -11,7 +11,7 @@ Y le damos al windows shift r para que se actualice
 
 
 
-### Definicion
+### Definición
 
 **Polybar** es una herramienta muy utilizada en la personalización de entornos de escritorio en sistemas Linux, especialmente en aquellos que emplean gestores de ventanas livianos o “tiling window managers” como **i3**, **bspwm**, y otros. Es una barra de estado que se destaca por ser altamente configurable y modular.
 

@@ -5,7 +5,7 @@ apt install polybar
 
 ## Picom
 
-Insalacion de libreria Picom 
+Instalación de libreria Picom 
 https://github.com/yshui/picom (Añadir -y al final del copia y pega)
 
 Luego en Downloads hacer gitclone del github
@@ -20,7 +20,7 @@ En el archivo que modificamos [[Cambios dentro de sxhdrc]] antes hay que cambiar
 ![[Pasted image 20260303175427.png]]
 ![[Pasted image 20260303205123.png]]
 
-Por último forzamos la maquína 
+Por último forzamos la máquina 
 kill -9 -1 
 Y ahora accedemos con bspwm que ya estaría configurado
 

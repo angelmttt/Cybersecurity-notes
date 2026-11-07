@@ -1,3 +1,6 @@
-[[Teoria  HTB]]
+[[Teoría HTB]]
 [[Starting Point]]
 [[Aprendido]]
+[[Vulnerabilidades Aprendidas]]
+[[Maquinas Extra]]
+[[Herramientas]]

@@ -8,9 +8,9 @@ windows + s ---> Achicar la ventana
 
 windows + Click Izquierdo Arrastrar ----> Mover la pantalla
 
-windows + Alt (LADOS) ----> Hacer la terminal mas grande o pequeña
+windows + Alt (LADOS) ----> Hacer la terminal más grande o pequeña
 
-windows + Alt + (Numeros) ----->  Hacer la terminal mas grande o pequeña
+windows + Alt + (Números) ----->  Hacer la terminal más grande o pequeña
 
 windows + t ----> Deja la terminal como estaba
 
@@ -18,19 +18,19 @@ windows + f ----> Pantalla completa
 
 ctrl + window + Alt (Lados) -----> Preselectores
 
-ctrl + window + NUMERO ----> Tamaño de los preselectores
+ctrl + window + NÚMERO ----> Tamaño de los preselectores
 
 window + derecha/izquierda ----> Elegir lado
 
-window + shift + izquierda/derecha ----> Mover de lado la aplicacion
+window + shift + izquierda/derecha ----> Mover de lado la aplicación
 
 window + S ----> desacoplas lo que quieras
 
 window + q ----> Cerrar ventana
 
-windows + numero ----> cambiar la polibar
+windows + número ----> cambiar la polybar
 
-window shift + numero ---> cambiar de pantalla
+window shift + número ---> cambiar de pantalla
 
 window + escape ----> recargar cambios
 
@@ -55,7 +55,7 @@ esc esc ----> ponemos sudo el comando
 
 -----------------------------------------------------
 Uso de Fzf
- ctrl + t ---> te aparecen todas las busquedas
+ ctrl + t ---> te aparecen todas las búsquedas
  ctrl + r ---> busca en el historica de comando
 
 --------------------------------------------
@@ -73,7 +73,7 @@ d ----> borrar
 p ---> pegar
 ![[Pasted image 20260307121833.png|91]]
 
-COMANDO VISUALIZACION
+COMANDO VISUALIZACIÓN
 
 esc + :vsp ---> replica exacta para tener dos pantallas (derecha)
 esc + :sp ---> lo mismo pero abajo

@@ -8,8 +8,8 @@ j ---> hacer jump
 l ---> hacia arriba
 0 ---> ir al principio
 $ ---> ir al fin
-numero + w ---> moverme entre palabras numero = las que te quieras moveer
-numero + d --> borrar
+número + w ---> moverme entre palabras número = las que te quieras mover
+número + d --> borrar
 
 
 seleccionar lo que quieras + y ---> copias

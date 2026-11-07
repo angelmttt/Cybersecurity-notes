@@ -1,5 +1,5 @@
 ![[Pasted image 20260308142246.png]]
-EXPLICACION:
+EXPLICACIÓN:
 Recuerda que el uso del operador '&>' sirve para indicar que tanto el stderr como el stdout va a ser redirigido a un archivo, igual que la instrucción que está previamente definida.
 
 ![[Pasted image 20260309112221.png]]

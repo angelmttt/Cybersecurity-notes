@@ -1,54 +1,60 @@
-# 🔐 Cybersecurity Notes — Ángel Martín
+<h1 align="center">Cybersecurity Notes</h1>
 
-Este repositorio recoge el aprendizaje que estoy llevando en el mundo de la ciberseguridad: desde los fundamentos de Linux hasta la resolución de máquinas de HackTheBox, pasando por la configuración de mi propio entorno de trabajo.
+<p align="center">
+  Notas personales de ciberseguridad ofensiva: fundamentos, reconocimiento, enumeración, hacking web y resolución de máquinas.
+</p>
 
-Estudio Ingeniería en Sistemas de Información (GISI) en CEU San Pablo (Madrid), y la ciberseguridad —especialmente el lado ofensivo (pentesting, CTFs, hacking ético)— es el campo en el que me encantaría desarrollar mi carrera profesional. Este repo es, en parte, la prueba de ese camino: documentar todo lo que voy aprendiendo, entender el porqué de cada técnica y no solo memorizar comandos.
-
-Gané el CTF organizado por INCIBE y Sherpa Tribe (1er puesto), y sigo activo resolviendo máquinas en HackTheBox mientras profundizo en administración de sistemas Linux.
-
----
-
-## 📂 Estructura
-
-### `Temas Intr Linux/`
-Fundamentos de Linux: permisos (lectura, notación octal, SUID/SGID, sticky bit, capabilities), descriptores de archivo, control de flujo (stdout/stderr), estructura de directorios, tmux, bash scripting, uso de Neovim, búsquedas a nivel de sistema, y ejercicios prácticos de OverTheWire (Bandit).
-
-### `Temas Conf Linux/`
-Configuración de un entorno de trabajo completo sobre Parrot OS: VMware, gestor de ventanas (bspwm + sxhkd), Polybar, Picom, Rofi, ZSH + Powerlevel10k, y Neovim con NVChad.
-
-### `Temas HTB/`
-Progreso en HackTheBox — teoría de conceptos encontrados en cada máquina (protocolos, vulnerabilidades, herramientas) y writeups detallados de las máquinas resueltas en **Starting Point** (Tier 0, 1 y 2).
-
-> Writeups compartidos conforme a la [política de HTB sobre write-ups](https://help.hackthebox.com/en/articles/5188925-write-up-guidelines) — todas las máquinas incluidas son de Starting Point.
-
-### `Temas Incibe/`
-Ejercicios y retos realizados en el marco de formación de INCIBE.
-
-### `Raiz/`
-Notas índice que enlazan las distintas secciones entre sí (estructura de navegación interna de Obsidian).
+<p align="center">
+  <img src="https://img.shields.io/badge/Enfoque-Seguridad%20Ofensiva-0b5394">
+  <img src="https://img.shields.io/badge/Entorno-Parrot%20OS-5a2d82">
+  <img src="https://img.shields.io/badge/Formato-Obsidian-7c3aed">
+  <img src="https://img.shields.io/badge/Idioma-Espa%C3%B1ol-informational">
+</p>
 
 ---
 
-## 🛠️ Cómo usar este repo
+## Sobre este repositorio
 
-Estas notas están escritas en Markdown con la sintaxis de enlaces internos de [Obsidian](https://obsidian.md/) (`[[nombre de nota]]`). Para la mejor experiencia de lectura (enlaces funcionando, imágenes correctamente enlazadas), se recomienda clonar el repo y abrirlo como una bóveda de Obsidian:
+Documento aquí mi aprendizaje en ciberseguridad ofensiva (pentesting, red team y CTFs), el campo en el que quiero desarrollar mi carrera. Estudio Ingeniería de Sistemas de Información (GISI) en la Universidad CEU San Pablo.
+
+El objetivo no es acumular comandos, sino entender el porqué de cada técnica: qué se busca en cada fase, con qué herramienta y por qué.
+
+- Ganador del I Desafío de Ciberseguridad (CTF) INCIBE & Sherpa Tribe.
+- Prácticas en el área de Red Team de Atalanta Ciberseguridad.
+- Herramienta propia: [CheckPermisos](https://github.com/angelmttt/CheckPermisos), auditoría de permisos en Linux.
+
+## Estructura
+
+| Directorio | Contenido |
+|---|---|
+| `Pentesting/Cursos Practicas/` | Metodología por fases: Fundamentos, Linux para Pentester, OSINT, Reconocimiento, Enumeración, Nmap y Hacking Web y API, más mi propia metodología de auditoría web |
+| `Temas HTB/` | Teoría de los conceptos vistos en Hack The Box y writeups de las máquinas de Starting Point |
+| `Temas Intr Linux/` | Fundamentos de Linux: permisos (octal, SUID/SGID, sticky bit, capabilities), descriptores, redirecciones, estructura de directorios, scripting y ejercicios de OverTheWire |
+| `Temas Conf Linux/` | Configuración de un entorno completo sobre Parrot OS: bspwm, Polybar, Picom, Rofi, ZSH + Powerlevel10k y Neovim |
+| `Raiz/` | Notas índice que enlazan las secciones entre sí |
+
+## Temario
+
+- **Reconocimiento** — OSINT, subdominios, whois, DNS, fingerprinting, filtraciones.
+- **Enumeración** — SMB, FTP, SSH, bases de datos, SNMP, LDAP, APIs, servicios web.
+- **Nmap** — escaneo TCP/UDP, detección de servicios, scripts NSE y Lua.
+- **Hacking web** — SQLi, XSS, IDOR, CSRF, XXE, SSRF, LFI/RFI, subida de archivos y JWT.
+- **Metodología de auditoría** — flujo de trabajo propio de caja negra y plantilla de informe de hallazgos.
+
+## Uso ético
+
+Todo el contenido tiene fines formativos. Las técnicas se han practicado únicamente en laboratorios propios, plataformas de entrenamiento (Hack The Box, OverTheWire, DVWA, WebGoat) o con autorización expresa. Los dominios, correos y datos de los ejemplos son ficticios (`paginaejemplo.com`, `empresax.com`). Los writeups incluidos son de máquinas de Starting Point, conforme a la [política de write-ups de Hack The Box](https://help.hackthebox.com/en/articles/5188925-write-up-guidelines).
+
+## Cómo leer las notas
+
+Las notas están en Markdown con enlaces internos de [Obsidian](https://obsidian.md) (`[[nota]]`). Para navegarlas con los enlaces y las imágenes funcionando, clona el repositorio y ábrelo como bóveda:
 
 ```bash
 git clone https://github.com/angelmttt/Cybersecurity-notes.git
 ```
 
-Luego, en Obsidian: `Abrir carpeta como bóveda` → seleccionar la carpeta clonada.
+En Obsidian: *Abrir carpeta como bóveda* y seleccionar la carpeta clonada.
 
----
+## Contacto
 
-## 📌 Estado actual
-
-- ✅ HTB Starting Point — Tier 0 y Tier 1 completos
-- 🔄 HTB Starting Point — Tier 2 en curso
-- 🔄 Fundamentos de Linux — en progreso continuo
-
----
-
-## 📫 Contacto
-
-Si quieres hablar sobre ciberseguridad, oportunidades de prácticas/empleo, o simplemente comentar algo de estas notas, no dudes en contactarme a través de mi perfil de GitHub o LinkedIn.
+[LinkedIn](https://www.linkedin.com/in/angel-martin-trejo/) · [GitHub](https://github.com/angelmttt)

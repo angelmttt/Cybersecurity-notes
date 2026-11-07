@@ -9,3 +9,20 @@
 # Archivos de sistema
 .DS_Store
 Thumbs.db
+
+# Volcados de error de herramientas
+*.stackdump
+
+# Notas que no se publican (maquinas HTB no confirmadas como retiradas y retos INCIBE)
+Temas Incibe/
+Raiz/INCIBE CIBER.md
+Temas HTB/Maquinas HTB/PaperWork.md
+Temas HTB/Maquinas HTB/Reactor.md
+Temas HTB/Easy.md
+Temas HTB/Maquinas Extra.md
+Pentesting/Png/Pasted image 20260712193033.png
+Pentesting/Png/Pasted image 20260712193106.png
+Pentesting/Png/Pasted image 20260712193144.png
+Pentesting/Png/Pasted image 20260712195544.png
+Pentesting/Png/Pasted image 20260713172744.png
+Pentesting/Png/Pasted image 20260713173728.png

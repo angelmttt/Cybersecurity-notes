@@ -14,7 +14,7 @@ awk ---> puedes printear el primer argumento
 hostname -I | awk '{print $1}'
 ```
 
-EJEMPLO DE FUNCION
+EJEMPLO DE FUNCIÓN
 dentro de .zshrc
 ```
 function vermiip(){
@@ -23,5 +23,5 @@ function vermiip(){
 ```
 
 
-Para añadir un parametro de output hay que ponerlo ----> $()
+Para añadir un parámetro de output hay que ponerlo ----> $()
 ls -a --> muestra archivos ocultos (empieza por un .)

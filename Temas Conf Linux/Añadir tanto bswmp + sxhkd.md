@@ -4,7 +4,7 @@ En resumen, primeramente ejecutaremos el siguiente comando:
 - Además Hay que instalar otro más porque sino el skhxd no funciona porque falta librería
 	 sudo apt update && sudo apt install libxcb-xkb-dev -y
   
-Posteriormente, aplicaremos una actualización del sistema con el comando ‘**apt update**‘. Acto seguido, tenéis que dirigiros a la carpeta de descargas de vuestro equipo y descargar los proyectos ‘**bswpm**‘ y ‘**sxhkd**‘ con los siguientes comandos:
+Posteriormente, aplicaremos una actualización del sistema con el comando ‘**apt update**‘. Acto seguido, tenéis que dirigiros a la carpeta de descargas de vuestro equipo y descargar los proyectos ‘**bspwm**‘ y ‘**sxhkd**‘ con los siguientes comandos:
 
 - **git clone https://github.com/baskerville/bspwm.git**
 - **git clone https://github.com/baskerville/sxhkd.git**
@@ -21,7 +21,7 @@ Entramos con nano al sxhdrc y hacemos unos pequeños cambios
 
 [[Cambios dentro de sxhdrc]]
 
-Creacion de archivo + Asignacion de privilegios
+Creación de archivo + Asignación de privilegios
 
 [[Archivo bspwm_size]]
 

@@ -1,4 +1,4 @@
-Primero nos hacen múltiples preguntas para saber si nos aparece bien las imagenes y luego nos dan para configurarlo como queramos. A gusto de cada uno en mi caso (04/03/26)
+Primero nos hacen múltiples preguntas para saber si nos aparece bien las imágenes y luego nos dan para configurarlo como queramos. A gusto de cada uno en mi caso (04/03/26)
 ```
 2 1 2 n 1 3 4 1 2 2 2 y 1 y
 ```

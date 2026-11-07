@@ -3,12 +3,12 @@
 
 Dentro de .config/polybar, existen varias carpetas donde se puede modificar la poly
 
-Accedemos en current.ini filtramos por log (ctrl w) y camiamos el background por bg
+Accedemos en current.ini filtramos por log (ctrl w) y cambiamos el background por bg
 ![[Pasted image 20260305093821.png]]
-Ademas lo hacemos con primary lo ponemos en bg
+Además lo hacemos con primary lo ponemos en bg
 ![[Pasted image 20260305115025.png]]
 
-Tambien cambiamos el my-text-label por lo que filtramos por nombre buscamos en nerdfonts el icono de parrot copiamos y lo pegamos
+También cambiamos el my-text-label por lo que filtramos por nombre buscamos en nerdfonts el icono de parrot copiamos y lo pegamos
 https://www.nerdfonts.com/cheat-sheet
 ![[Pasted image 20260305094319.png]]
 
@@ -33,7 +33,7 @@ Nos metemos con nano en el .zshrc y filtramos por PATH y añadimos esto
 
 Copiamos el pastebin y pegamos en el touch
 https://pastebin.com/HcKxU3tD
-Ponemos el icono que querramos
+Ponemos el icono que queramos
 ![[Pasted image 20260305100828.png]]
 
 

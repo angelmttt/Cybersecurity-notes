@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=fshLf6u8B-w
  Comandos Find y Locate en Linux:
  https://www.hostinger.com/es/tutoriales/como-usar-comando-find-locate-en-linux
 
-find ---> busqueda para lo que quieras 
+find ---> búsqueda para lo que quieras 
 
 ```
 find / -name passwd | xargs ls -l 
@@ -45,4 +45,4 @@ Cuando no te sabes el nombre entero te sirve para decir que empieza dex... y aba
 ```
 find --help 
 ```
-Te aparecen mas comandos
+Te aparecen más comandos
