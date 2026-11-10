@@ -1,7 +1,7 @@
 <h1 align="center">Cybersecurity Notes</h1>
 
 <p align="center">
-  Notas personales de ciberseguridad ofensiva: fundamentos, reconocimiento, enumeración, hacking web y resolución de máquinas.
+  Notas personales de ciberseguridad ofensiva: fundamentos, reconocimiento, enumeración, hacking web, metodología de auditoría y resolución de máquinas.
 </p>
 
 <p align="center">
